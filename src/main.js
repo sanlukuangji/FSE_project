@@ -15,6 +15,11 @@ Bmob.User.login('lzy_g2','123456').then(res=>{
 }).catch(err=>{
   console.log(err)
 })
+Bmob.User.login('zyx','13501128529').then(res=>{
+  console.log(res)
+}).catch(err=>{
+  console.log(err)
+})
 
 import axios from 'axios'
 Vue.prototype.axios = axios  
